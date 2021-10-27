@@ -1,0 +1,41 @@
+*{box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.container{
+  width: 80%;
+  height: 100vh;
+  max-width: 800px;
+  margin: 0 auto;
+  background-color: red;
+  display: flex;
+  align-items: center;
+}
+
+
+
+ .item{
+  width: 80%;
+  display: none;
+}
+
+ .box.right .item{
+  width: 100%;
+  
+}
+
+.box.right{
+  width: 20%;
+  display: flex;
+  flex-wrap: wrap;
+} 
+
+
+.item img{
+  width: 100%;
+}
+
+.active{
+  display: block;
+}
