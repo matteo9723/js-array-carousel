@@ -40,11 +40,21 @@
 
 .box .left .image{
   height: 100%;
+  position: relative;
 }
 
 .box .left .image img {
   height: 100%;
   width: 100%;
+}
+
+.box .left .image .text {
+ position: absolute;
+ bottom: 0;
+ color: white;
+ text-align: right;
+ right: 0;
+ margin: 10px;
 }
 
 /* BOX RIGHT  */
